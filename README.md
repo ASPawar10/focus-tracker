@@ -24,5 +24,18 @@ Ensure you have Node.js and npm installed on your machine.
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/ASPawar10/focus-tracker.git](https://github.com/ASPawar10/focus-tracker.git)
+   git clone https://github.com/ASPawar10/focus-tracker.git
    cd focus-tracker
+   ```
+
+2. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the application. Grant camera permissions when prompted to begin live inference.
